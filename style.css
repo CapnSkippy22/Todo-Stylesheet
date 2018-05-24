@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400');
+
+body {
+  background-color: #f4f8f9;
+  font-family: 'Vollkorn', serif;
+  font-size: 38px;
+}
+
+div {
+  margin: auto;
+}
+
+/* the div that encapsules the rest of your components */
+.main {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  color: grey;
+}
+
+/* Input field of your form. '.input-form' should match the class of the div that encapsules your form */
+.input-form input {
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+  width: 60%;
+  padding: 5px;
+  height: 50px;
+  font-size: 38px;
+  background: transparent;
+  border: none;
+  border-bottom: .5px solid black;
+  outline: none;
+}
+
+/* The list itself, '.list' should match the class of the outermost div of your list */
+.list {
+  margin-top: 70px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+/* Add a completed class to an element in the list to give it a strike through effect */
+.list .completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
